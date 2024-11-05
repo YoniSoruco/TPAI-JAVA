@@ -10,6 +10,7 @@ module frc.utn.edu.tpai {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.desktop;
 
     opens frc.utn.edu.tpai to javafx.fxml;
     exports frc.utn.edu.tpai;
